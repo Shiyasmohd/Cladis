@@ -2,6 +2,8 @@ import React from 'react';
 import './Details.css'
 import BG from '../../Assets/BG.jpg'
 import Call from '../../Assets/call.png'
+import Time from '../../Assets/time.png'
+import Location from '../../Assets/location.png'
 import Donate from '../../Assets/donate.svg'
 import Share from '../../Assets/share.svg'
 
@@ -40,6 +42,23 @@ function Details() {
                                 <img src={Call}/>
                                 <h5>Contact</h5>
                             </div>
+                        </div>
+                    </div>
+                    <div className="b-details-wrap">
+                        <div className="b-details">
+                            <img src={Location}/>
+                            <h5>Location</h5>
+                            <h6>41°24'12.2"S 2°10'26.5"W</h6>
+                        </div>
+                        <div className="b-details b-time">
+                            <img src={Time}/>
+                            <h5>Time</h5>
+                            <h6>26 May, 2021  10.00 AM</h6>
+                        </div>
+                        <div className="b-details">
+                            <img src={Location}/>
+                            <h5>Location</h5>
+                            <h6>41°24'12.2"S 2°10'26.5"W</h6>
                         </div>
                     </div>
                 </div>
