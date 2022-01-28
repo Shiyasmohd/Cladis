@@ -26,7 +26,7 @@ function View() {
   }, [PostDetails])
     return (
         <div className="main">
-          <ProNav/>
+       
             <Row className="view">
                 <Col lg={6} md={12} sm={12} xs={12} data-aos="fade-left">
                    <div className="view-img">

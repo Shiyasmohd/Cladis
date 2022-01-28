@@ -33,7 +33,7 @@ function MyProducts() {
   AOS.init();
     return (
         <div className="main">
-            <ProNav/>
+            {/* <ProNav/> */}
              <div className="c-main">
         <Row>
             {

@@ -70,7 +70,7 @@ function Body() {
                             }
                         }>
                         <div className="card-main">
-                         <img src={product.url} className="card-img"></img>
+                         <img src={product.url} className="card-img cd-bg"></img>
                          <div className="card-heading">{product.name}</div>
                          <div className="card-text">{product.type}</div>
                          <div className="card-text">{product.Location}</div>

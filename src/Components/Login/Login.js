@@ -20,7 +20,7 @@ function Login() {
     }
   return (
     <div className="l1">
-    <ProNav/>
+    {/* <ProNav/> */}
       <div className="loginParentDiv">
         {/* <img width="200px" height="200px" src={Logo}></img> */}
         <form onSubmit={handleSubmit}>

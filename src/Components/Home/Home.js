@@ -5,7 +5,7 @@ import ProNav from '../NavBar/NavBar'
 function HomeScreen() {
     return (
         <div>
-            <ProNav></ProNav>
+            {/* <ProNav></ProNav> */}
             <Body></Body>
         </div>
     )
