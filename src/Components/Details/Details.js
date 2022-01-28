@@ -1,6 +1,7 @@
 import React from 'react';
 import './Details.css'
 import BG from '../../Assets/BG.jpg'
+import Call from '../../Assets/call.png'
 import Donate from '../../Assets/donate.svg'
 import Share from '../../Assets/share.svg'
 
@@ -30,8 +31,16 @@ function Details() {
               <div className="bottom-wrap">
                 <div className="bottom-details">
                     <div className="b-details-head">
-                        <h1>Kerala</h1>
-                        <h4>South West Region</h4>
+                        <div className="head-left">
+                            <h1>Kerala</h1>
+                            <h4>South West Region</h4>
+                        </div>
+                        <div className="head-right">
+                            <div className="contact">
+                                <img src={Call}/>
+                                <h5>Contact</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
               </div>
