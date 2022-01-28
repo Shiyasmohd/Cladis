@@ -74,7 +74,7 @@ function Body() {
                          <div className="card-heading">{product.name}</div>
                          <div className="card-text">{product.type}</div>
                          <div className="card-text">{product.Location}</div>
-                         <div className="card-text">{product.Phone}</div>
+                         <div className="card-text last-txt">{product.Phone}</div>
                          </div>
                          </Col>
                     )
