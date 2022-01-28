@@ -20,7 +20,7 @@ function ProNav() {
     return (
     <Navbar collapseOnSelect expand="lg"  variant="dark">
     <Container>
-    <Navbar.Brand to="#home"><div className="n1"><img src={Logo} />FOTIA</div></Navbar.Brand>
+    <Navbar.Brand to="#home"><div className="n1"><img src={Logo} />CLADIS</div></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
     {/* <Form className="d-flex n2">

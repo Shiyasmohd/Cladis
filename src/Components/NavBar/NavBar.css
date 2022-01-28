@@ -33,6 +33,8 @@
   height: 85px;
   background-color: white;
   box-shadow: 0 -5px 25px #000;
+  position: fixed !important;
+  width: 100%;
 }
 .nav-link{
   color: #000 !important;
