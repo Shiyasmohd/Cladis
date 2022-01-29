@@ -28,6 +28,9 @@ border-radius: 7px;
 margin: 30px;
 padding: 7px;
 }
+.f12,.f11:hover{
+  cursor: pointer;
+}
 .c-main{
     margin-top: 25px;
 
@@ -96,7 +99,10 @@ box-shadow: 5px 5px 5px #00000031;
     
   
   }
-  .show {display:block;}
+  .show {
+    display:block;
+    margin-top:85px;
+  }
 
 .drop-box{
  

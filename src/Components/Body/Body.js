@@ -10,7 +10,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 function Body() {
     const [location, setLocation] = useState("NewDelhi");
-    const Locations= ["NewDelhi", "Calicut", "Thrissur", "Kochi", "Thiruvandapuram", "Banglore", "Mumbai"]
+    const Locations= ["New Delhi", "Calicut", "Thrissur", "Kochi", "Thiruvandapuram", "Banglore", "Mumbai"]
     const {proSearch, setproSearch} = useContext(SearchContext);
     const history = useHistory();
     const {firebase} = useContext(FireBaseContext);

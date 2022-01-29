@@ -20,7 +20,7 @@ const Create = () => {
     const date = new Date();
 
     const success = (position) => {
-        const latitude = position.coords.latitude;
+        const latitude = position.coords.latitude; 
         const longitude = position.coords.longitude;
 
         setLocation1({
@@ -80,7 +80,7 @@ const Create = () => {
                 <card>
                     <div className='centerDiv'>
                         {/* <Row><Col lg={6} md={6} sm={12} xs={12}> */}
-                        <label htmlFor='fname'>first Name</label>
+                        <label htmlFor='fname'>Name</label>
                         <br />
                         <input
                             className='input'
@@ -170,7 +170,7 @@ const Create = () => {
                         />
                         <br />
                         <button onClick={handleSubmit} className='uploadBtn'>
-                            upload and Submit
+                            Upload
                         </button>
                     </div>
                 </card>

@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat:wght@400;500&display=swap');
+
+
 .signupParentDiv {
     border: 1px solid black;
-    width: max-content;
-    padding: 10px;
+    width: 500px;
+    padding: 20px 50px;
     position: absolute;
     top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 6px;
-    color: snow;
+    color: #000;
     box-shadow: 5px 5px 5px #00000031; 
+    font-family: 'Montserrat', sans-serif;
     font-size: 17px;
   }
   
@@ -59,4 +63,9 @@
   border-radius: 4px;
   width: 300px;
   
+  }
+  .login{
+    margin-top:20px;
+    text-decoration: none;
+    color: #000;
   }

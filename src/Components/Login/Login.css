@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat:wght@400;500&display=swap');
+
+
 .loginParentDiv {
     border: 1px solid black;
-    width: max-content;
-    padding: 10px;
+    width: 500px;
+    padding: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 6px;
-    color: white;
+    color: #000;
     box-shadow: 5px 5px 5px #00000031; 
+    font-family: 'Montserrat', sans-serif;
   font-size: 20px; }
   
   /* .loginParentDiv .input {
@@ -20,12 +24,13 @@
   } */
   
   .loginParentDiv button {
-    width: 100%;
+    width: 200px;
     height: 48px;
     /* border-color: transparent; */
     background-color: #3CBC8D;
     color: whitesmoke;
     font-weight: 900;
+    margin: 0 100px;
   }
   .loginParentDiv button:hover {
     background-color: white;
@@ -39,24 +44,31 @@
     cursor: pointer;
   }
   .l1{
-    background-color: rgba(35, 47, 57, 1);
+    background-color: #fff;
     width: 100%;
     min-height: 100vh;
   }
   .in1{
     /* background-color: #3CBC8D; */
-  color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     border: 2px solid rgb(230, 230, 230);
-  border-radius: 4px;
-  width: 300px;
-  margin: 20px;
+    border-radius: 4px;
+    width: 350px;
+    margin: 20px;
+    padding:5px;
   }
+  
 
   .in1:focus{
     /* background-color: #3CBC8D; */
     color: rgb(0, 0, 0);
     border: 2px solid red;
   border-radius: 4px;
-  width: 300px;
+  width: 350px;
   
+  }
+  .signup{
+    margin-top:20px;
+    text-decoration: none;
+    color: #000;
   }

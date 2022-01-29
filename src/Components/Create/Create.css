@@ -1,17 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat:wght@400;500&display=swap');
+
+
 .centerDiv {
     border: 1px solid black;
-    width: max-content;
-    padding: 10px;
+    width: 500px;
+    padding: 20px 55px;
     position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 6px;
-    color: snow;
+    color: #000;
     box-shadow: 5px 5px 5px #00000031; 
     font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
   }
-  .input {
+  .input { 
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;

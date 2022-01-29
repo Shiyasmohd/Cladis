@@ -53,7 +53,7 @@ function Login() {
           <br />
           <button>Login</button>
         </form>
-        <a onClick={()=>{history.push("/signup")}}>Signup</a>
+        <a className="signup"onClick={()=>{history.push("/signup")}}>Signup</a>
       </div>
     </div>
   );
