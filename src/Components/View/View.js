@@ -1,4 +1,10 @@
 import './View.css'
+import Dialog from "@material-ui/core/Dialog";
+import DialogContentText from "@material-ui/core/DialogContentText";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import DialogActions from "@material-ui/core/DialogActions";
+import DialogContent from "@material-ui/core/DialogContent";
+import Button1 from "@material-ui/core/Button";
 import { Card, Row, Col, Button } from 'react-bootstrap'
 import { useState, useContext, useEffect } from 'react';
 import { useHistory } from 'react-router';
@@ -17,8 +23,17 @@ import Share from '../../Assets/share.svg'
 
 function View() {
   var sectionStyle={
-    backgroundImage: `url(${BG})`
+backgroundImage: (`url(${BG})`)
 }
+const [open, setOpen] = React.useState(false);
+  
+  const handleClickToOpen = () => {
+    setOpen(true);
+  };
+  
+  const handleToClose = () => {
+    setOpen(false);
+  };
   AOS.init();
   const [userDetails, setuserDetails] = useState();
   const {postDetails} = useContext(PostContext);
@@ -94,10 +109,29 @@ function View() {
                   <h1>{PostDetails.type}</h1>
                   <h4>Reported By {PostDetails.name}</h4>
                   <div className="donate">
-                      <div className="d-btn">
+                      <div className="d-btn" variant="outlined" color="primary" 
+              onClick={handleClickToOpen}>
                           <img src={Donate} />
-                          <p>Donate</p>
+                          <p>Help</p>
                       </div>
+                      <Dialog open={open} onClose={handleToClose}>
+        <DialogTitle>{"Help"}</DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            Are you Willing to help?
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+        <Button onClick={handleToClose} 
+                  color="primary" autoFocus>
+            Yes
+          </Button>
+          <Button onClick={handleToClose} 
+                  color="primary" autoFocus>
+            Close
+          </Button>
+        </DialogActions>
+      </Dialog>
                       <div className="s-btn">
                       <img src={Share} />
                       <p>Share</p>
