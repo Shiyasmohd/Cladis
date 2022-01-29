@@ -49,6 +49,8 @@ const Create = () => {
     }, [location1]);
 
     const handleSubmit = () => {
+        if(user==null) alert("Please Sign in before addign a case")
+        else{
         firebase
             .storage()
             .ref(`/image/${image.name}`)
@@ -69,9 +71,9 @@ const Create = () => {
                             userId: user.uid,
                             location: location1,
                         })
-                        .then(history.push('/'));
-                })
-            );
+                        .then(history.push('/')).catch(err=> alert(err));
+                }).catch(err=> alert(err))
+            );}
     };
     return (
         <div className='l1'>
@@ -166,7 +168,7 @@ const Create = () => {
                             onChange={(e) => {
                                 setimage(e.target.files[0]);
                             }}
-                            className='in1'
+                            className='in1'  accept="image/*"
                         />
                         <br />
                         <button onClick={handleSubmit} className='uploadBtn'>

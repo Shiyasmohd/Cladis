@@ -35,7 +35,6 @@ const {firebase} = useContext(FireBaseContext)
   <Seacher>
   <ProNav/>
    <Switch>
-   
     <Route exact path="/" ><HomeScreen/></Route>
     <Route path="/signup" ><Signup></Signup></Route>
     <Route path="/details" ><Details/></Route>
