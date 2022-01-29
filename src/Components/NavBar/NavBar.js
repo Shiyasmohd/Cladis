@@ -42,7 +42,7 @@ function ProNav() {
         <Nav.Link to="/login" onClick={()=>history.push('/login')}>LOGIN</Nav.Link>}
         {user?
         <Nav.Link to="#" ><div className="s1">{user.displayName}</div></Nav.Link>:
-        <Nav.Link to="/signup"  onClick={()=>history.push('/signup')}><div className="s1">SignUp</div></Nav.Link>}
+        <Nav.Link to="/signup"  onClick={()=>history.push('/signup')}><div className="s1"></div></Nav.Link>}
         <Nav.Link to="#" >ABOUT</Nav.Link>
 
       </Nav>

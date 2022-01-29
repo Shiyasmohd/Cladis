@@ -42,10 +42,10 @@ function MyProducts() {
                         <Col lg={3} md={6} sm={6} xs={12} className="c-0"   data-aos="fade-up">
                         <div className="card-main-1">
                          <img src={product.url} className="card-img"></img>
-                         <div className="card-heading">{product.name}</div>
+                         {/* <div className="card-heading">{product.name}</div>
                          <div className="card-text">{product.type}</div>
                          <div className="card-text">{product.Location}</div>
-                         <div className="card-text">{product.Phone}</div>
+                         <div className="card-text">{product.Phone}</div> */}
                          
                          <Button variant="outline-danger" className="bt1" 
                          onClick={

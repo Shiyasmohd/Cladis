@@ -22,6 +22,7 @@
   width: 100%;
   display: flex;
   justify-content: end;
+  background-color: rgb(252, 252, 252);
 }
 .s1{
   background-color:white;
@@ -41,4 +42,7 @@
   color: #000 !important;
   font-family: 'Raleway', sans-serif;
   padding: 0 1rem !important;
+}
+.nbg{
+  background-color: aliceblue;
 }
