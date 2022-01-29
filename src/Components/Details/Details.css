@@ -88,6 +88,9 @@
     font-size :30px;
     margin-left: 10px;
 }
+.s-btn,.d-btn:hover{
+    cursor: pointer;
+}
 .head-left{
     width:50%;
     float: left;
