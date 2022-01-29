@@ -3,8 +3,9 @@
 
 .centerDiv {
     border: 1px solid black;
-    width: 500px;
+    min-width: 400px;
     padding: 20px 55px;
+    max-width: 1000px;
     position: absolute;
     top: 55%;
     left: 50%;
@@ -40,4 +41,15 @@
     width:185px;
     height: .1rem;
     background-color: black;
+  }
+  .in7{
+    width: 100px;
+  }
+  @media only screen and (min-width: 1000px) {
+    .in7{
+       margin-left: 220px;
+    }
+    .in2{
+      width: 300px;
+    }
   }

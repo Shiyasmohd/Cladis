@@ -79,8 +79,9 @@ const Create = () => {
         <div className='l1'>
             <Fragment>
                 {/* <ProNav /> */}
-                <card>
-                    <div className='centerDiv'>
+                <card><div className='centerDiv'>
+                    <Row>
+                    <Col lg={3} md={6} sm={10} xs={10}>
                         {/* <Row><Col lg={6} md={6} sm={12} xs={12}> */}
                         <label htmlFor='fname'>Name</label>
                         <br />
@@ -155,26 +156,29 @@ const Create = () => {
                             className='in1'
                         />
                         <br />
+                      
+                        </Col><Col lg={3} md={3} sm={10} xs={10} className='in7'>
                         <img
                             alt='Posts'
                             width='200px'
                             height='200px'
                             src={image ? URL.createObjectURL(image) : null}
                         ></img>
-
                         <br />
                         <input
                             type='file'
                             onChange={(e) => {
                                 setimage(e.target.files[0]);
                             }}
-                            className='in1'  accept="image/*"
+                            className='in1 in2'  accept="image/*"
                         />
-                        <br />
+                        <br /></Col>
                         <button onClick={handleSubmit} className='uploadBtn'>
                             Upload
                         </button>
-                    </div>
+                    
+                    
+                    </Row></div>
                 </card>
             </Fragment>
         </div>
