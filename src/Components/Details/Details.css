@@ -143,3 +143,15 @@
 .b-time img{
     padding:5px;
 }
+
+@media only screen and (max-width:768px){
+    .bottom-details{
+        width:100%;
+    }
+    .details{
+        height:98vh;
+    }
+    .b-details{
+        width:90%;
+    }
+}
