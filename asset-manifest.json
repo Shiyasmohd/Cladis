@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/cladis/static/css/main.1f2f47bc.chunk.css",
+    "main.js": "/cladis/static/js/main.f43601e8.chunk.js",
+    "main.js.map": "/cladis/static/js/main.f43601e8.chunk.js.map",
+    "runtime-main.js": "/cladis/static/js/runtime-main.a4bee580.js",
+    "runtime-main.js.map": "/cladis/static/js/runtime-main.a4bee580.js.map",
+    "static/css/2.a2bc7d03.chunk.css": "/cladis/static/css/2.a2bc7d03.chunk.css",
+    "static/js/2.d9fd6de8.chunk.js": "/cladis/static/js/2.d9fd6de8.chunk.js",
+    "static/js/2.d9fd6de8.chunk.js.map": "/cladis/static/js/2.d9fd6de8.chunk.js.map",
+    "static/js/3.a73a0f8b.chunk.js": "/cladis/static/js/3.a73a0f8b.chunk.js",
+    "static/js/3.a73a0f8b.chunk.js.map": "/cladis/static/js/3.a73a0f8b.chunk.js.map",
+    "index.html": "/cladis/index.html",
+    "static/css/2.a2bc7d03.chunk.css.map": "/cladis/static/css/2.a2bc7d03.chunk.css.map",
+    "static/css/main.1f2f47bc.chunk.css.map": "/cladis/static/css/main.1f2f47bc.chunk.css.map",
+    "static/js/2.d9fd6de8.chunk.js.LICENSE.txt": "/cladis/static/js/2.d9fd6de8.chunk.js.LICENSE.txt",
+    "static/media/BG.102e4351.jpg": "/cladis/static/media/BG.102e4351.jpg",
+    "static/media/call.21d5a083.png": "/cladis/static/media/call.21d5a083.png",
+    "static/media/donate.84d99599.svg": "/cladis/static/media/donate.84d99599.svg",
+    "static/media/location.ba014dde.png": "/cladis/static/media/location.ba014dde.png",
+    "static/media/logo.09295112.png": "/cladis/static/media/logo.09295112.png",
+    "static/media/logo.6ce24c58.svg": "/cladis/static/media/logo.6ce24c58.svg",
+    "static/media/share.ad6613ac.svg": "/cladis/static/media/share.ad6613ac.svg",
+    "static/media/time.82608359.png": "/cladis/static/media/time.82608359.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4bee580.js",
+    "static/css/2.a2bc7d03.chunk.css",
+    "static/js/2.d9fd6de8.chunk.js",
+    "static/css/main.1f2f47bc.chunk.css",
+    "static/js/main.f43601e8.chunk.js"
+  ]
+}
